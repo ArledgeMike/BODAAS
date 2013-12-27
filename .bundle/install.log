@@ -1,0 +1,141 @@
+# Logfile created on 2013-12-27 15:35:36 -0600 by logger.rb/41954
+I, [2013-12-27T15:35:36.090163 #8424]  INFO -- : 0:  i18n (0.6.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-27T15:35:36.863163 #8424]  INFO -- : 0:  minitest (4.7.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-27T15:35:38.259163 #8424]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+E, [2013-12-27T15:35:39.399163 #8424] ERROR -- : Gem::InstallError: The 'atomic' native gem requires installed build tools.
+
+Please update your PATH to include build tools or download the DevKit
+from 'http://rubyinstaller.org/downloads' and follow the instructions
+at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:12:in `rescue in block in <top (required)>'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:4:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:249:in `call'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:249:in `block in run_pre_install_hooks'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:248:in `each'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:248:in `run_pre_install_hooks'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:209:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2013-12-27T15:39:13.765163 #10148]  INFO -- : 0:  i18n (0.6.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-27T15:39:13.767163 #10148]  INFO -- : 0:  minitest (4.7.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-27T15:39:13.768163 #10148]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+E, [2013-12-27T15:39:13.819163 #10148] ERROR -- : Gem::InstallError: The 'atomic' native gem requires installed build tools.
+
+Please update your PATH to include build tools or download the DevKit
+from 'http://rubyinstaller.org/downloads' and follow the instructions
+at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:12:in `rescue in block in <top (required)>'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:4:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:249:in `call'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:249:in `block in run_pre_install_hooks'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:248:in `each'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:248:in `run_pre_install_hooks'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:209:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2013-12-27T15:45:58.604163 #5092]  INFO -- : 0:  i18n (0.6.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-27T15:45:58.606163 #5092]  INFO -- : 0:  minitest (4.7.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-27T15:45:58.608163 #5092]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+E, [2013-12-27T15:45:59.911163 #5092] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby200/bin/ruby
+	--with-atomic_reference-dir
+	--without-atomic_reference-dir
+	--with-atomic_reference-include
+	--without-atomic_reference-include=${atomic_reference-dir}/include
+	--with-atomic_reference-lib
+	--without-atomic_reference-lib=${atomic_reference-dir}/
+C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:434:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:519:in `try_link0'
+	from C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:817:in `try_run'
+	from extconf.rb:26:in `<main>'
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/atomic-1.1.14 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/atomic-1.1.14/ext/gem_make.out
+
+C:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:77:in `run'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:148:in `block (2 levels) in build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `chdir'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `block in build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `synchronize'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:180:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `each'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:666:in `build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:224:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2013-12-27T15:46:26.253163 #8068]  INFO -- : 0:  i18n (0.6.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-27T15:46:26.255163 #8068]  INFO -- : 0:  minitest (4.7.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-27T15:46:26.256163 #8068]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+E, [2013-12-27T15:46:27.210163 #8068] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby200/bin/ruby
+	--with-atomic_reference-dir
+	--without-atomic_reference-dir
+	--with-atomic_reference-include
+	--without-atomic_reference-include=${atomic_reference-dir}/include
+	--with-atomic_reference-lib
+	--without-atomic_reference-lib=${atomic_reference-dir}/
+C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:434:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:519:in `try_link0'
+	from C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:817:in `try_run'
+	from extconf.rb:26:in `<main>'
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/atomic-1.1.14 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/atomic-1.1.14/ext/gem_make.out
+
+C:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:77:in `run'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:148:in `block (2 levels) in build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `chdir'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `block in build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `synchronize'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:180:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `each'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:666:in `build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:224:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2013-12-27T15:49:17.299163 #10092]  INFO -- : 0:  i18n (0.6.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-27T15:49:17.301163 #10092]  INFO -- : 0:  minitest (4.7.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-27T15:49:17.302163 #10092]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+E, [2013-12-27T15:49:18.262163 #10092] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby200/bin/ruby
+	--with-atomic_reference-dir
+	--without-atomic_reference-dir
+	--with-atomic_reference-include
+	--without-atomic_reference-include=${atomic_reference-dir}/include
+	--with-atomic_reference-lib
+	--without-atomic_reference-lib=${atomic_reference-dir}/
+C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:434:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:519:in `try_link0'
+	from C:/Ruby200/lib/ruby/2.0.0/mkmf.rb:817:in `try_run'
+	from extconf.rb:26:in `<main>'
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/atomic-1.1.14 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/atomic-1.1.14/ext/gem_make.out
+
+C:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:77:in `run'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:148:in `block (2 levels) in build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `chdir'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `block in build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `synchronize'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `build_extension'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:180:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `each'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:666:in `build_extensions'  \nC:/Ruby200/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:224:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'

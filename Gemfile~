@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+ruby '2.0.0'
 
 gem 'sinatra'
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'sinatra-flash'
+gem 'sinatra-redirect-with-flash'
 
 group :development do 
-  gem 'pg'
+  gem 'sqlite3'
   gem 'tux'
 end
 
