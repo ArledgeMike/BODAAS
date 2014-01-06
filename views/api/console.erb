@@ -1,0 +1,31 @@
+<div id="api_console" class="container">  
+	<div class="dick_pic">
+	</div>
+	<div class="copy_container">
+<h1> <%= @title %></h1>
+
+<form action="/api/response" method="get">
+	<label>What to do with the bag of dicks?</label>
+	<select id="verb" name="verb">
+		<option value="Suck">Go Suck</option>
+		<option value="BBQ">Go BBQ</option>
+		<option value="Felate">Go Felate</option>
+		<option value="Gargle">Go Gargle</option>
+		<option value="Bury">Go Bury</option>
+		<option value="Purchase">Go Purchase</option>
+		<option value="Invest In">Go Invest In</option>
+		<option value="Imagine">Go Imagine</option>
+
+	</select>
+	
+	<label>To:</label>
+	<input name="to" type="text" required="true" min="3">
+	
+	<label>From:</label>
+	<input name="from" type="text" required="true" min="3">
+	
+	<input type="submit">
+</form>
+</div>
+
+<div id="main" class="container">  

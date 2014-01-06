@@ -3,34 +3,30 @@ require 'net/http'
 
   get "/" do 
     @title = "Tell someone to eat a bag of dicks"
+    @url =  "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}/hey/Henry/rotate/Phillip"
+    @base = "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
     erb :"/index"
   end
 
-  get "/apiconsole" do
+  get "/api/console" do
     @title = "Use the console"   
-    erb :"apiconsole"
+    erb :"/api/console"
   end
 
-  get "/apipost" do
+  get "/api/response" do
     @to = params[:to]
     @verb = params[:verb]
     @from = params[:from]
-    @url = "localhost:4567/hey/#{@to}/#{@verb}/#{@from}/"
+    @url =  "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}/hey/#{@to}/#{@verb}/#{@from}"
     @url = @url.gsub(" ", "%20")
-    erb :"/hey"
+    erb :"/api/response"
   end  
   
 
   get "/hey/:to/:verb/:from" do
-    
-    
     @from = params[:from]
     @to = params[:to]
-    @cverb = params[:verb]
-    @base_url ||= "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
-    
-    @url = @base_url  #"localhost:4567/hey/#{@to}/#{@curse}/#{@from}/"
-    @url = @url.gsub(" ", "%20")
+    @verb = params[:verb]
     erb :"/hey"
   end
 

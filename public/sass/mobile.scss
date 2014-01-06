@@ -1,14 +1,11 @@
-@media (max-width: 960px) {
-	
+@media screen and (max-width:560px) {
+
 	.container{
-		width:480px;
-		
-	}
-	.dick_pic{
-		
-		float:left;
+		width:490px;
 	}
 	.copy_container{
-		float:right;
+		margin-top:0px;
+		
 	}
+
 }

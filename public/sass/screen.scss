@@ -1,9 +1,8 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 body, html{
 	font-family:arial;
+}
+header{
+	float:left;
 }
 .container{
 	width:980px;
@@ -23,27 +22,50 @@ body, html{
 #api_console .dick_pic{
 	background: url(../images/bag_three.jpg) no-repeat;
 }
+#response .dick_pic{
+	background: url(../images/bag_four.jpg) no-repeat;
+	
+}
 
 .copy_container{
 width:490px;	
 height:auto;
 float:left;
+margin-top:100px;
 }
-#api_console .copy_container form{
-	 width:100%;
-	 float:left;
-	 background:red;
-}
-#api_console .copy_container form label{
-	 
+#api_console .copy_container form {
+	width:100%;
 	
+	label{
+	width:100%;
+	float:left;
+	margin:18px 0px 7px 0px;
+	}
+	select{
+		width:300px;
+		height:40px;
+		float:left;
+		display:block;
+	}
+	input[type="text"]{
+		float:left;
+		width:300px;
+		height:40px;
+		font-size:30px;
+	}
+	input[type="submit"]{
+		margin-top:18px;
+		clear:left;
+		float:left;
+	}
+
 }
- #api_console .copy_container form input[type="submit"]{
-	 
-	
+#response .url{
+	width:480px;
+	float:left;
+	clear:left;
 }
- #api_console .copy_container form input[type="text"] {
-	
-	 
-	
-}
+
+
+@import "mobile";
+

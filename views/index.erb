@@ -1,16 +1,17 @@
 <div id="home" class="container">  
+	<header>  
+	  <hgroup>  
+	    <h1>A Bag of Dicks As A Service</h1>  
+	    <h3>"Like, one at a time? The whole bag?"</h3>  
+	  </hgroup>  
+	</header>  
+
 	<div class="dick_pic"></div>
 
 	<div class="copy_container">
-<header>  
-  <hgroup>  
-    <h1>A Bag of Dicks As A Service</h1>  
-    <h3>"Like, one at a time? The whole bag?"</h3>  
-  </hgroup>  
-</header>  
 <p>Ever wonder how you can actually send a bag of dicks to someone?</p>
 <p>To construct your url do this</p>
-<p>"http://localhost:4567/hey/{to whom are you talking}/{a verb}/{who the message is from} <br/><br/> <b>For example:</b> <a href="http://localhost:4567/hey/mike/gargle/draper">http://localhost:4567/hey/mike/gargle/draper</a></p>
+<p>"<%= @base %>/hey/{to whom are you talking}/{a verb}/{who the message is from} <br/><br/> <b>For example:</b> <a href= <%= @url %> > <%= @url %> </a></p>
 
 <h3>If you can't come up with something clever use our console to craft a url</h3>
 <a href="/apiconsole">API Console</a>
