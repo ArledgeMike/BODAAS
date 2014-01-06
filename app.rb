@@ -21,10 +21,12 @@ require 'sinatra'
   
 
   get "/hey/:to/:verb/:from" do
+    
+    @uri = request_uri
     @from = params[:from]
     @to = params[:to]
-    @curse = params[:verb] 
-    @url = "localhost:4567/hey/#{@to}/#{@curse}/#{@from}/"
+    @cverb = params[:verb]
+    @url = @uri  #"localhost:4567/hey/#{@to}/#{@curse}/#{@from}/"
     @url = @url.gsub(" ", "%20")
     erb :"/hey"
   end
