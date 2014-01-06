@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'net/http'
 
   get "/" do 
     @title = "Tell someone to eat a bag of dicks"
@@ -22,11 +23,13 @@ require 'sinatra'
 
   get "/hey/:to/:verb/:from" do
     
-    @uri = request_uri
+    
     @from = params[:from]
     @to = params[:to]
     @cverb = params[:verb]
-    @url = @uri  #"localhost:4567/hey/#{@to}/#{@curse}/#{@from}/"
+    @base_url ||= "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
+    
+    @url = @base_url  #"localhost:4567/hey/#{@to}/#{@curse}/#{@from}/"
     @url = @url.gsub(" ", "%20")
     erb :"/hey"
   end
