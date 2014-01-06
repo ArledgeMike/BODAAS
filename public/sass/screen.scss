@@ -31,8 +31,12 @@ header{
 width:490px;	
 height:auto;
 float:left;
-margin-top:100px;
 }
+#home .copy_container{
+	
+}
+
+
 #api_console .copy_container form {
 	width:100%;
 	
@@ -60,12 +64,19 @@ margin-top:100px;
 	}
 
 }
+
+
 #response .url{
 	width:480px;
 	float:left;
 	clear:left;
 }
 
+footer{
+	height:50px;
+	width:100%;
+	float:left;
+}
 
 @import "mobile";
 
