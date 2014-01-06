@@ -12,9 +12,9 @@ require 'sinatra'
 
   get "/apipost" do
     @to = params[:to]
-    @curse = params[:verb]
+    @verb = params[:verb]
     @from = params[:from]
-    @url = "localhost:4567/hey/#{@to}/#{@curse}/#{@from}/"
+    @url = "localhost:4567/hey/#{@to}/#{@verb}/#{@from}/"
     @url = @url.gsub(" ", "%20")
     erb :"/hey"
   end  

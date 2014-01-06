@@ -1,0 +1,50 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+body, html{
+	font-family:arial;
+	
+}
+.container{
+	width:980px;
+	margin:auto;
+}
+.dick_pic{
+	width:490px;
+	height:480px;
+	float:right;
+}
+#hey .dick_pic{
+	background: url(../images/bag_one.jpg) no-repeat;
+}
+#home .dick_pic{
+	background: url(../images/bag_two.jpg) no-repeat;
+}
+#api_console .dick_pic{
+	background: url(../images/bag_three.jpg) no-repeat;
+}
+
+.copy_container{
+width:490px;	
+height:auto;
+float:left;
+}
+#api_console .copy_container form{
+	 width:100%;
+	 float:left;
+	 background:red;
+}
+#api_console .copy_container form label{
+	 
+	
+}
+ #api_console .copy_container form input[type="submit"]{
+	 
+	
+}
+ #api_console .copy_container form input[type="text"] {
+	
+	 
+	
+}
