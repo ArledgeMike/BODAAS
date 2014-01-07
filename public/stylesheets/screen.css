@@ -14,79 +14,86 @@ header {
   margin: auto;
 }
 
-/* line 11, ../sass/screen.scss */
-.dick_pic {
-  width: 490px;
-  height: 480px;
-  float: right;
-}
-
-/* line 16, ../sass/screen.scss */
-#hey .dick_pic {
-  background: url(../images/bag_one.jpg) no-repeat;
-}
-
-/* line 19, ../sass/screen.scss */
-#home .dick_pic {
+/* line 12, ../sass/screen.scss */
+.dick_pic #image {
+  display: inline;
+  width: 100%;
+  font-size: 0px;
+  line-height: 0px;
+  background-size: 100%;
+  vertical-align: middle;
+  background-position: 50% 50%;
   background: url(../images/bag_two.jpg) no-repeat;
 }
 
 /* line 22, ../sass/screen.scss */
+.dick_pic #image #inner_image {
+  display: block;
+  height: 0px;
+  padding-top: 50%;
+}
+
+/* line 27, ../sass/screen.scss */
+#hey .dick_pic {
+  background: url(../images/bag_one.jpg) no-repeat;
+}
+
+/* line 32, ../sass/screen.scss */
 #api_console .dick_pic {
   background: url(../images/bag_three.jpg) no-repeat;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 #response .dick_pic {
   background: url(../images/bag_four.jpg) no-repeat;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .copy_container {
   width: 490px;
   height: auto;
   float: left;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 #api_console .copy_container form {
   width: 100%;
 }
-/* line 43, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 #api_console .copy_container form label {
   width: 100%;
   float: left;
   margin: 18px 0px 7px 0px;
 }
-/* line 48, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #api_console .copy_container form select {
   width: 300px;
   height: 40px;
   float: left;
   display: block;
 }
-/* line 54, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 #api_console .copy_container form input[type="text"] {
   float: left;
   width: 300px;
   height: 40px;
   font-size: 30px;
 }
-/* line 60, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 #api_console .copy_container form input[type="submit"] {
   margin-top: 18px;
   clear: left;
   float: left;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 #response .url {
   width: 480px;
   float: left;
   clear: left;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 footer {
   height: 50px;
   width: 100%;
@@ -94,9 +101,20 @@ footer {
 }
 
 @media screen and (max-width: 560px) {
-  /* line 3, ../sass/mobile.scss */
+  /* line 3, ../sass/tablet.scss */
   .container {
     width: 490px;
+  }
+
+  /* line 6, ../sass/tablet.scss */
+  .copy_container {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 3, ../sass/mobile.scss */
+  .container {
+    width: 350px;
   }
 
   /* line 6, ../sass/mobile.scss */

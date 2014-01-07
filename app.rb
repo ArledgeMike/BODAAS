@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'net/http'
+require 'rubygems'
+require 'url_shortener'
 
   get "/" do 
     @title = "Tell someone to eat a bag of dicks"
@@ -19,6 +21,16 @@ require 'net/http'
     @from = params[:from]
     @url =  "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}/hey/#{@to}/#{@verb}/#{@from}"
     @url = @url.gsub(" ", "%20")
+    
+    
+    
+    authorize = UrlShortener::Authorize.new "o_1ajhsae040", "R_d236112c68ed3a20800cf2f69088f3e2"
+
+    client = UrlShortener::Client.new authorize
+     
+    shorten = client.shorten(@url).shortUrl 
+    @url = shorten
+    
     erb :"/api/response"
   end  
   

@@ -1,7 +1,7 @@
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 400px) {
   /* line 3, ../sass/mobile.scss */
   .container {
-    width: 490px;
+    width: 350px;
   }
 
   /* line 6, ../sass/mobile.scss */

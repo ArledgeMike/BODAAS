@@ -1,0 +1,11 @@
+@media screen and (max-width: 560px) {
+  /* line 3, ../sass/tablet.scss */
+  .container {
+    width: 490px;
+  }
+
+  /* line 6, ../sass/tablet.scss */
+  .copy_container {
+    margin-top: 0px;
+  }
+}
