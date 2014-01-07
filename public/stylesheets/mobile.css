@@ -1,10 +1,5 @@
 @media screen and (max-width: 400px) {
-  /* line 3, ../sass/mobile.scss */
-  .container {
-    width: 350px;
-  }
-
-  /* line 6, ../sass/mobile.scss */
+  /* line 4, ../sass/mobile.scss */
   .copy_container {
     margin-top: 0px;
   }

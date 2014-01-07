@@ -1,33 +1,29 @@
 body, html{
 	font-family:arial;
+	height:100%;
+	width:100%;
 }
 header{
 	float:left;
+	width:50%;
 }
 .container{
-	width:980px;
+	width:90%;
+	height:100%;
 	margin:auto;
+	word-break:break-word;
 }
+.dick_pic{
+	float:right;
+	width:50%;
+	height:100%;
 
-.dick_pic #image{
-	display:inline;
-	width:100%;
-	font-size:0px;
-	line-height:0px;
-	background-size:100%;
-	vertical-align:middle;
-	background-position:50% 50%;
-	background: url(../images/bag_two.jpg) no-repeat;
-}
-.dick_pic #image #inner_image{
-	display:block;
-	height:0px;
-	padding-top:50%;
 }
 #hey .dick_pic{
 	background: url(../images/bag_one.jpg) no-repeat;
 }
 #home .dick_pic{
+	background: url(../images/bag_two.jpg) no-repeat;
 }
 #api_console .dick_pic{
 	background: url(../images/bag_three.jpg) no-repeat;
@@ -38,14 +34,13 @@ header{
 }
 
 .copy_container{
-width:490px;	
+width:50%;	
 height:auto;
 float:left;
 }
-#home .copy_container{
-	
+#hey .copy_container{
+	margin-top:125px;
 }
-
 
 #api_console .copy_container form {
 	width:100%;
@@ -84,7 +79,7 @@ float:left;
 
 footer{
 	height:50px;
-	width:100%;
+	width:90%;
 	float:left;
 }
 @import "tablet";

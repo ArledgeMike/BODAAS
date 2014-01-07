@@ -1,123 +1,141 @@
 /* line 1, ../sass/screen.scss */
 body, html {
   font-family: arial;
+  height: 100%;
+  width: 100%;
 }
 
-/* line 4, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
 header {
   float: left;
+  width: 50%;
 }
 
-/* line 7, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 .container {
-  width: 980px;
+  width: 90%;
+  height: 100%;
   margin: auto;
+  word-break: break-word;
 }
 
-/* line 12, ../sass/screen.scss */
-.dick_pic #image {
-  display: inline;
-  width: 100%;
-  font-size: 0px;
-  line-height: 0px;
-  background-size: 100%;
-  vertical-align: middle;
-  background-position: 50% 50%;
-  background: url(../images/bag_two.jpg) no-repeat;
+/* line 16, ../sass/screen.scss */
+.dick_pic {
+  float: right;
+  width: 50%;
+  height: 100%;
 }
 
 /* line 22, ../sass/screen.scss */
-.dick_pic #image #inner_image {
-  display: block;
-  height: 0px;
-  padding-top: 50%;
-}
-
-/* line 27, ../sass/screen.scss */
 #hey .dick_pic {
   background: url(../images/bag_one.jpg) no-repeat;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
+#home .dick_pic {
+  background: url(../images/bag_two.jpg) no-repeat;
+}
+
+/* line 28, ../sass/screen.scss */
 #api_console .dick_pic {
   background: url(../images/bag_three.jpg) no-repeat;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 #response .dick_pic {
   background: url(../images/bag_four.jpg) no-repeat;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .copy_container {
-  width: 490px;
+  width: 50%;
   height: auto;
   float: left;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
+#hey .copy_container {
+  margin-top: 125px;
+}
+
+/* line 45, ../sass/screen.scss */
 #api_console .copy_container form {
   width: 100%;
 }
-/* line 53, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 #api_console .copy_container form label {
   width: 100%;
   float: left;
   margin: 18px 0px 7px 0px;
 }
-/* line 58, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 #api_console .copy_container form select {
   width: 300px;
   height: 40px;
   float: left;
   display: block;
 }
-/* line 64, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 #api_console .copy_container form input[type="text"] {
   float: left;
   width: 300px;
   height: 40px;
   font-size: 30px;
 }
-/* line 70, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 #api_console .copy_container form input[type="submit"] {
   margin-top: 18px;
   clear: left;
   float: left;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 #response .url {
   width: 480px;
   float: left;
   clear: left;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 footer {
   height: 50px;
-  width: 100%;
+  width: 90%;
   float: left;
 }
 
 @media screen and (max-width: 560px) {
   /* line 3, ../sass/tablet.scss */
-  .container {
-    width: 490px;
+  header {
+    width: 100%;
   }
 
   /* line 6, ../sass/tablet.scss */
+  .dick_pic {
+    width: 100%;
+    height: 66%;
+    float: left;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  }
+
+  /* line 14, ../sass/tablet.scss */
   .copy_container {
     margin-top: 0px;
+    width: 100%;
+  }
+
+  /* line 22, ../sass/tablet.scss */
+  #api_console .copy_container form select {
+    width: 100%;
+  }
+  /* line 26, ../sass/tablet.scss */
+  #api_console .copy_container form input[type="text"] {
+    width: 97%;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 3, ../sass/mobile.scss */
-  .container {
-    width: 350px;
-  }
-
-  /* line 6, ../sass/mobile.scss */
+  /* line 4, ../sass/mobile.scss */
   .copy_container {
     margin-top: 0px;
   }
