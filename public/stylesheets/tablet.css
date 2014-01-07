@@ -20,12 +20,22 @@
     width: 100%;
   }
 
-  /* line 22, ../sass/tablet.scss */
+  /* line 18, ../sass/tablet.scss */
+  #hey .copy_container {
+    margin-top: 0px;
+  }
+
+  /* line 25, ../sass/tablet.scss */
   #api_console .copy_container form select {
     width: 100%;
   }
-  /* line 26, ../sass/tablet.scss */
+  /* line 29, ../sass/tablet.scss */
   #api_console .copy_container form input[type="text"] {
     width: 97%;
+  }
+
+  /* line 35, ../sass/tablet.scss */
+  #response .url {
+    width: 100%;
   }
 }

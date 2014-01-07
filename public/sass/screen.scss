@@ -72,7 +72,9 @@ float:left;
 
 
 #response .url{
-	width:480px;
+	word-break:break-word;
+	width:50%;
+	
 	float:left;
 	clear:left;
 }
