@@ -11,7 +11,7 @@ require 'url_shortener'
   end
 
   get "/api/console" do
-    @title = "Use the console"   
+    @title = "Use the console to send a bag of dicks"   
     erb :"/api/console"
   end
 
@@ -19,17 +19,8 @@ require 'url_shortener'
     @to = params[:to]
     @verb = params[:verb]
     @from = params[:from]
-    @url =  "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}/hey/#{@to}/#{@verb}/#{@from}"
-    @url = @url.gsub(" ", "%20")
-    
-    
-    
-    authorize = UrlShortener::Authorize.new "o_1ajhsae040", "R_d236112c68ed3a20800cf2f69088f3e2"
-
-    client = UrlShortener::Client.new authorize
-     
-    shorten = client.shorten(@url).shortUrl 
-    @url = shorten
+    @url =  short_url "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}/hey/#{@to}/#{@verb}/#{@from}"
+   
     
     erb :"/api/response"
   end  
@@ -55,5 +46,22 @@ require 'url_shortener'
     
     include Rack::Utils
     alias_method :h, :escape_html
+    
+  end
+
+  private
+  
+  def short_url(url)
+    @url = url.gsub(" ", "%20")
+    
+    
+    
+    authorize = UrlShortener::Authorize.new "o_1ajhsae040", "R_d236112c68ed3a20800cf2f69088f3e2"
+
+    client = UrlShortener::Client.new authorize
+     
+    shorten = client.shorten(@url).shortUrl 
+    @url = shorten
+    
     
   end
