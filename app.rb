@@ -12,7 +12,7 @@ require 'url_shortener'
 
   get "/api/console" do
     @title = "Use the console to send a bag of dicks"   
-    @url =   url << "/api/console"
+    @url =   url 
     erb :"/api/console"
   end
 
@@ -21,7 +21,7 @@ require 'url_shortener'
     @to = params[:to]
     @verb = params[:verb]
     @from = params[:from]
-    @url =  short_url  url << "/hey/#{@to}/#{@verb}/#{@from}"
+    @url =  short_url  url << "hey/#{@to}/#{@verb}/#{@from}"
     erb :"/api/response"
   end  
   
