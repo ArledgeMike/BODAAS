@@ -21,7 +21,8 @@ require 'url_shortener'
     @to = params[:to]
     @verb = params[:verb]
     @from = params[:from]
-    @url =  short_url  url 
+    @url =  url.gsub!("api/response", "hey")
+    @url = short_url @url
     erb :"/api/response"
   end  
   
@@ -32,7 +33,7 @@ require 'url_shortener'
     @verb = params[:verb]
     @title ="Hey #{@to}, go #{@verb} a bag of dicks. -from #{@from}"
 
-    @url =  short_url  url << "hey/#{@to}/#{@verb}/#{@from}"
+    @url =  short_url  url 
     erb :"/hey"
   end
 
@@ -65,7 +66,7 @@ require 'url_shortener'
   
   def url 
    # @base = "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
-    @base = "#{request.env['rack.url_scheme']}"
+    @base = "#{request.env}"
 
   end
   
