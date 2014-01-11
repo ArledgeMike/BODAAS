@@ -22,7 +22,7 @@ require 'url_shortener'
     @verb = params[:verb]
     @from = params[:from]
     @url =  url.gsub!("api/response", "hey")
-    @url = short_url @url
+    @url = short_url @url << "/#{@to}/#{@verb}/#{{@from}"
     erb :"/api/response"
   end  
   
