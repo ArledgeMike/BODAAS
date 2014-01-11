@@ -27,10 +27,11 @@ require 'url_shortener'
   
 
   get "/hey/:to/:verb/:from" do
-    @title ="Hey #{@to}, go #{@verb} a bag of dicks. -from #{@from}"
     @from = params[:from]
     @to = params[:to]
     @verb = params[:verb]
+    @title ="Hey #{@to}, go #{@verb} a bag of dicks. -from #{@from}"
+
     @url =  short_url  url << "hey/#{@to}/#{@verb}/#{@from}"
     erb :"/hey"
   end
