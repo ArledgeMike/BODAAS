@@ -33,7 +33,7 @@ require 'url_shortener'
     @verb = params[:verb]
     @title ="Hey #{@to}, go #{@verb} a bag of dicks. -from #{@from}"
 
-    @url =  short_url  url 
+    @url =  url 
     erb :"/hey"
   end
 
