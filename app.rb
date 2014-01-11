@@ -65,7 +65,7 @@ require 'url_shortener'
   
   def url 
    # @base = "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
-    @base = "#{request.env['rack.url_scheme']}:/"
+    @base = "#{request.env['rack.url_scheme']}"
 
   end
   
