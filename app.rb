@@ -12,7 +12,7 @@ require 'url_shortener'
 
   get "/api/console" do
     @title = "Use the console to send a bag of dicks"   
-    @url =   url 
+    @url =   url  << "/api/console"
     erb :"/api/console"
   end
 
@@ -63,6 +63,8 @@ require 'url_shortener'
   
   
   def url 
-    @base = "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
+   # @base = "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
+    @base = "#{request.env['rack.url_scheme']}://"
+
   end
   
