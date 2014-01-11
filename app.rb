@@ -21,7 +21,7 @@ require 'url_shortener'
     @to = params[:to]
     @verb = params[:verb]
     @from = params[:from]
-    @url =  short_url  url << "hey/#{@to}/#{@verb}/#{@from}"
+    @url =  short_url  url 
     erb :"/api/response"
   end  
   
