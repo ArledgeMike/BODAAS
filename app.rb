@@ -18,9 +18,9 @@ require 'url_shortener'
 
   get "/api/response" do
     @title = "Copy and paste the short URL to a FB post or Tweet."
-    @to = params[:to]
+    @to = params[:to].capitalize
     @verb = params[:verb]
-    @from = params[:from]
+    @from = params[:from].capitalize
     @url =  url.gsub!("api/response", "hey")
     @url = short_url @url << "/#{@to}/#{@verb}/#{@from}"
     erb :"/api/response"
@@ -28,8 +28,8 @@ require 'url_shortener'
   
 
   get "/hey/:to/:verb/:from" do
-    @from = params[:from]
-    @to = params[:to]
+    @from = params[:from].capitalize
+    @to = params[:to].capitalize
     @verb = params[:verb]
     @title ="Hey #{@to}, go #{@verb} a bag of dicks. -from #{@from}"
 
