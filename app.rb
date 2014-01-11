@@ -55,7 +55,7 @@ require 'url_shortener'
   private
   
   def short_url(url)
-    @url = url.gsub(" ", "%20")
+    @url = url.gsub(" ", "%20").gsub("api/console", "")
     authorize = UrlShortener::Authorize.new "o_1ajhsae040", "R_d236112c68ed3a20800cf2f69088f3e2"
     client = UrlShortener::Client.new authorize
     shorten = client.shorten(@url).shortUrl 
