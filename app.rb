@@ -57,7 +57,7 @@ require 'url_shortener'
   
   def short_url(url)
     @url = url.gsub(" ", "%20").gsub("api/resonse", "hey")
-    authorize = UrlShortener::Authorize.new "o_1ajhsae040", "R_d236112c68ed3a20800cf2f69088f3e2"
+    authorize = UrlShortener::Authorize.new "[enter_bitly_id], [enter_bitly_api_key]"
     client = UrlShortener::Client.new authorize
     shorten = client.shorten(@url).shortUrl 
     @url = shorten
